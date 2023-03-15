@@ -27,7 +27,7 @@ export default function Post({frontmatter, content}) {
           />
           <h1 className="text-gray-600 mt-4 text-xl tracking-widest">{title}</h1>
           <h2 className="text-gray-500 mt-1">{date}</h2>
-          <h3 className="text-gray-400 text-sm mt-2">{category}: {tags.join()} </h3>
+          <h3 className="text-gray-400 text-sm mt-2">{tags.join()} </h3>
           <ReactMarkdown className="text-left my-10">{content}</ReactMarkdown>
         </div>
     </main>
