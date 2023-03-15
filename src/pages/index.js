@@ -54,7 +54,7 @@ export default function Home({posts}) {
                       width="1000"
                       height="0"
                       alt="blog picture"
-                      className="w-full group-hover:opacity-70" 
+                      className="w-full group-hover:opacity-70 transition duration-300" 
                     />
                     <div className="px-6 py-4">
                       <div className="font-bold text-lg h-16">{title}</div>
