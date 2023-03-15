@@ -46,8 +46,8 @@ export default function Home({posts}) {
               const {slug, frontmatter} = post
               const {title, author, category, date, tags, bannerImage} = frontmatter
 
-              return <div className="max-w-sm overflow-hidden group">
-                <article key={title} className="border">
+              return <div className="max-w-sm overflow-hidden group" key={title}>
+                <article className="border">
                   <Link href={`/blog/${slug}`}>
                     <Image 
                       src={bannerImage} 
