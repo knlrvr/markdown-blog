@@ -24,4 +24,4 @@ A blog made with Next.js, markdown, tailwindcss, and dynamic routing.
 3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser
 
 ## Notes
-> Optionally, when cloning the project, you can remove all files from `posts` and replace them with your own! 
+> Optionally, when cloning the project, you can remove all files from `pages/posts` and replace them with your own! 
