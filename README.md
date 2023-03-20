@@ -20,8 +20,9 @@ A blog made with Next.js, markdown, tailwindcss, and dynamic routing.
 
 ## Running This Project Yourself 
 1. Clone the project to your machine with `git clone https://github.com/knlrvr/markdown-blog.git`
-2. On a command line inside of the application's folder, run `npm start`
-3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser
+2. On a command line inside of the application's folder, run `npm install`
+3. Again, on a command line inside of the application's folder, run `npm start`
+4. Open `http://localhost:3000` in a browser to view the application
 
 ## Notes
 > Optionally, when cloning the project, you can remove all files from `pages/posts` and replace them with your own! 
